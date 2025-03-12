@@ -1,7 +1,8 @@
 /*FileName:Chapter5Exercise11.cpp
 ProgrammerName:Charles Sherwood
 Date:3/25
-requirements:
+requirements:This program will determine the size of a 
+population of orginisms
 
 
 
@@ -20,10 +21,11 @@ double Orginism()
 	double orginism;
 	cout << "Please enter the starting number of orginisims:";
 	cin >> orginism;
-
-
-
-
+	while (orginism < 2)
+	{
+		cout << "Please Enter A Valid Amount:";
+		cin >> orginism;
+	}
 	return orginism;
 }
 double PopInc()
@@ -31,7 +33,11 @@ double PopInc()
 	double popinc;
 	cout << "Please enter the amount the population increased";
 	cin >> popinc;
-
+	while (popinc < 0)
+	{
+		cout << "Please Enter A New Amount:";
+		cin >> popinc;	
+	}
 
 
 	return popinc;
