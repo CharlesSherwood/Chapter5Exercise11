@@ -10,7 +10,7 @@ population of orginisms.
 #include <iomanip>
 
 using namespace std;
-
+ 
 // Function prototypes
 int getStartingPopulation();
 double getDailyIncrease();
