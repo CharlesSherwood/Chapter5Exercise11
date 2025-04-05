@@ -28,7 +28,7 @@ int main() {
         displayPopulationGrowth(startingPopulation, dailyIncrease, numberOfDays);
     } while (askToContinue());
 
-    cout << "Thank you for using the population predictor!\n";
+    cout << "Thank you for using the population calculator!\n";
     return 0;
 }
 
